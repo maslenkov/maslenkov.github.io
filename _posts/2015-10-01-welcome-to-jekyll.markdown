@@ -1,25 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome!"
 date:   2015-10-01 19:14:49
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+### First Post - Jekyll short review
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This is my first post in my own blog.
 
-Jekyll also offers powerful support for code snippets:
+It driven by [Jekyll][jekyll]. And firstly I describe my fillings about it.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I work with rails more then two years. And Jekyll is terrible. I had problems with process of plugin installing. And with themes.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+### Plugins
+
+I wanted to create Russian version of my blog. So I tried to setup internationalisation plugin. I didn't win in the war with jekyll-multiple-languages-plugin yet. So there is nothing here.
+
+### Themes
+
+Most of themes should be installed as empty Jekyll project. There are no problem to copy and paste your configs and posts to new Jekyll project. But what if you want to show three or four themes with you content to choose one of them? I have no practice with CMS, but I think that new themes should be pluggable.
+
+### Summary
+
+Don't worry about me. I'm ok;) Jekyll present a lot of fun for geeks. So enjoy Jekyll;)
 
 [jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
