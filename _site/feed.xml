@@ -6,32 +6,35 @@
 </description>
     <link>http://maslenkov.github.io/</link>
     <atom:link href="http://maslenkov.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Oct 2015 22:54:02 +0300</pubDate>
-    <lastBuildDate>Sun, 04 Oct 2015 22:54:02 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Thu, 15 Oct 2015 23:01:05 +0300</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2015 23:01:05 +0300</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>String#subscript</title>
-        <description>
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/str/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;quot;str&amp;quot;&lt;/span&gt;
+        <description>&lt;p&gt;This is a cool ruby feature to find substring.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# [] - works like `match` method, but return substring, not #&amp;lt;MatchData &amp;quot;...&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/str/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;quot;str&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# The real benefit you get when you find part of substring&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/s(t)r/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;quot;t&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/s(r)r/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# NoMethodError: undefined method `[]&amp;#39; for nil:NilClass&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#   from (irb):3&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# And the coolest thing that it can be used without tmp variables&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/s(r)r/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; nil&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://ruby-doc.org/core-2.2.3/String.html#method-i-5B-5D&quot;&gt;Ruby docs&lt;/a&gt; for more info.&lt;/p&gt;
+&lt;p&gt;Of course there are not all abilities of String#[] method. And you should be confident with using nil as returned value. So check out the &lt;a href=&quot;http://ruby-doc.org/core-2.2.3/String.html#method-i-5B-5D&quot;&gt;Ruby docs&lt;/a&gt; for more info. Or RubyTaps #99.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 05 Oct 2015 01:41:00 +0300</pubDate>
-        <link>http://maslenkov.github.io/ruby/tips/2015/10/05/string-subscript.html</link>
-        <guid isPermaLink="true">http://maslenkov.github.io/ruby/tips/2015/10/05/string-subscript.html</guid>
+        <link>http://maslenkov.github.io/ruby/2015/10/05/string-subscript.html</link>
+        <guid isPermaLink="true">http://maslenkov.github.io/ruby/2015/10/05/string-subscript.html</guid>
         
         
         <category>ruby</category>
-        
-        <category>tips</category>
         
       </item>
     

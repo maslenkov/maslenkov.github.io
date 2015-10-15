@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>String#subscript</title>
-  <meta name="description" content="&#39;string&#39;[/str/] #=&gt; &quot;str&quot;&#39;string&#39;[/s(t)r/, 1] #=&gt; &quot;t&quot;&#39;string&#39;.match(/s(r)r/)[1]#=&gt;# NoMethodError: undef...">
+  <meta name="description" content="This is a cool ruby feature to find substring.">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://maslenkov.github.io/ruby/2015/10/05/string-subscript.html">
@@ -62,16 +62,21 @@
   </header>
 
   <article class="post-content">
-    
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="s1">&#39;string&#39;</span><span class="o">[</span><span class="sr">/str/</span><span class="o">]</span> <span class="c1">#=&gt; &quot;str&quot;</span>
+    <p>This is a cool ruby feature to find substring.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># [] - works like `match` method, but return substring, not #&lt;MatchData &quot;...&quot;&gt;</span>
+<span class="s1">&#39;string&#39;</span><span class="o">[</span><span class="sr">/str/</span><span class="o">]</span> <span class="c1">#=&gt; &quot;str&quot;</span>
+<span class="c1"># The real benefit you get when you find part of substring</span>
 <span class="s1">&#39;string&#39;</span><span class="o">[</span><span class="sr">/s(t)r/</span><span class="p">,</span> <span class="mi">1</span><span class="o">]</span> <span class="c1">#=&gt; &quot;t&quot;</span>
 <span class="s1">&#39;string&#39;</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/s(r)r/</span><span class="p">)</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span>
 <span class="c1">#=&gt;</span>
 <span class="c1"># NoMethodError: undefined method `[]&#39; for nil:NilClass</span>
 <span class="c1">#   from (irb):3</span>
+
+<span class="c1"># And the coolest thing that it can be used without tmp variables</span>
 <span class="s1">&#39;string&#39;</span><span class="o">[</span><span class="sr">/s(r)r/</span><span class="p">,</span> <span class="mi">1</span><span class="o">]</span> <span class="c1">#=&gt; nil</span></code></pre></div>
 
-<p>Check out the <a href="http://ruby-doc.org/core-2.2.3/String.html#method-i-5B-5D">Ruby docs</a> for more info.</p>
+<p>Of course there are not all abilities of String#[] method. And you should be confident with using nil as returned value. So check out the <a href="http://ruby-doc.org/core-2.2.3/String.html#method-i-5B-5D">Ruby docs</a> for more info. Or RubyTaps #99.</p>
 
 
   </article>
