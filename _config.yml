@@ -2,11 +2,9 @@
 title: Eugene Maslenkov
 email: yujiriwc@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am an awesome full-stack web developer. I like ruby and javascript.
-  I like to spend my free time to research and learn a new and an alternative techonolgy.
-  I played with python and haskell, with meteor and jekyll;). I love my wife
-  and my two little daughters. Jesus is my Lord. And I dream about working in
-  big company such as github or heroku:)
+  Hey everyone! Nice to meet you in my blog. I'm going to write short
+  posts about things in programming and in job which looks interest for me.
+  Happy reading
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maslenkov.github.io" # the base hostname & protocol for your site
 twitter_username: maslenkov_v
