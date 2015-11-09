@@ -76,6 +76,11 @@
 <span class="c1"># And the coolest thing that it can be used without tmp variables</span>
 <span class="s1">&#39;string&#39;</span><span class="o">[</span><span class="sr">/s(r)r/</span><span class="p">,</span> <span class="mi">1</span><span class="o">]</span> <span class="c1">#=&gt; nil</span></code></pre></div>
 
+<p>And real live code example</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#get country code from the phone</span>
+<span class="s1">&#39;+12345678901&#39;</span><span class="o">[</span><span class="sr">/+(.*)\d{10}/</span><span class="p">,</span> <span class="mi">1</span><span class="o">]</span></code></pre></div>
+
 <p>Of course there are not all abilities of String#[] method. And you should be confident with using nil as returned value. So check out the <a href="http://ruby-doc.org/core-2.2.3/String.html#method-i-5B-5D">Ruby docs</a> for more info. Or RubyTaps #99.</p>
 
 

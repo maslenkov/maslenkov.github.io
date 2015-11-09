@@ -26,6 +26,11 @@
 &lt;span class=&quot;c1&quot;&gt;# And the coolest thing that it can be used without tmp variables&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/s(r)r/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; nil&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;And real live code example&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#get country code from the phone&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;+12345678901&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/+(.*)\d{10}/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Of course there are not all abilities of String#[] method. And you should be confident with using nil as returned value. So check out the &lt;a href=&quot;http://ruby-doc.org/core-2.2.3/String.html#method-i-5B-5D&quot;&gt;Ruby docs&lt;/a&gt; for more info. Or RubyTaps #99.&lt;/p&gt;
 
 </description>
