@@ -6,9 +6,31 @@
 </description>
     <link>http://maslenkov.github.io/</link>
     <atom:link href="http://maslenkov.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Oct 2015 23:01:05 +0300</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2015 23:01:05 +0300</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2015 20:03:18 +0300</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2015 20:03:18 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>My management tools</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://maslenkov.github.io/assets/habitica_scr.png&quot; alt=&quot;Maslenkov&#39;s habitica status bar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of days ago I had problems with self-management. I tried a lot of tools. And now I have a wonderful workflow!&lt;/p&gt;
+
+&lt;p&gt;So for self-management for every days I’m using habitica! It’s a great tool which turns planing of your dailies to a game. Checkout &lt;a href=&quot;https://habitica.com&quot;&gt;it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m using &lt;a href=&quot;https://www.apptrajectory.com&quot;&gt;apptrajectory&lt;/a&gt; as project management tool and &lt;a href=&quot;https://trello.com/&quot;&gt;trello&lt;/a&gt; as canban tool.&lt;/p&gt;
+
+&lt;p&gt;To create plan for nearest tasks and project TODOs in job process I’m using plugin for my text editor. So if you use sublime text then checkout &lt;a href=&quot;https://github.com/aziz/PlainTasks&quot;&gt;it&lt;/a&gt;;)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Nov 2015 22:53:00 +0300</pubDate>
+        <link>http://maslenkov.github.io/tools/2015/11/09/my-management-tools.html</link>
+        <guid isPermaLink="true">http://maslenkov.github.io/tools/2015/11/09/my-management-tools.html</guid>
+        
+        
+        <category>tools</category>
+        
+      </item>
     
       <item>
         <title>String#subscript</title>
